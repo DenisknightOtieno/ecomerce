@@ -1,0 +1,87 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  min-width: 600px;
+  color: black;
+  font-size: 18px;
+}
+h1 {
+  background-color: coral;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px 30px;
+  margin: 0;
+}
+
+#content {
+  overflow: hidden;
+  background-color: #333;
+  margin: 0;
+}
+
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+ li {
+  display: inline;
+}
+
+#list {
+  text-decoration: none;
+  list-style: none;
+  padding: 25px;
+
+
+}
+nav, a {
+  color: white;
+  text-decoration: none; 
+  justify-content: space-between;
+  text-overflow: none;
+  font-size: 18px;
+  padding-right: 15px;
+  
+}
+a::hover {
+  background-color: #999;
+}
+
+#featured-products, #new-products {
+ 
+  background-position: center;
+  padding-top: 80px;
+  text-align: left;
+  color: whitesmoke;
+  padding-right: 15px;
+  padding-left: 30px;
+  text-overflow: hidden;
+  
+  
+}
+@media(max-width: 600px){
+  main {
+    width:100%;
+    float: none;  
+  }
+}
+main {
+  background-color: #555;
+  float: center;
+   margin: 0;
+  padding: 30px 30px;
+  box-sizing: border-box;
+  margin: 0;
+  display: block;
+  padding-bottom: 20px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  margin-top:L 40px;
+}
+.foot {
+  display: inline-flex;
+}
